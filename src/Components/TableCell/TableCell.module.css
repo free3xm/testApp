@@ -1,0 +1,18 @@
+.cell {
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+}
+
+.cellHover {
+  background: #e91e63;
+}
+
+.cellInfo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #009688;
+  z-index: -1;
+}

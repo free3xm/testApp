@@ -1,0 +1,46 @@
+.tableRoot {
+  padding: 20px;
+}
+
+.tableContainer {
+  margin: 20px auto;
+  width: fit-content;
+  max-width: 100%;
+  overflow: auto;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
+    0 1px 3px 0 rgba(0, 0, 0, 0.12);
+}
+
+.table {
+  position: relative;
+  z-index: 1;
+  border-collapse: collapse;
+  border: none;
+}
+
+.table td {
+  position: relative;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  padding: 10px 7px;
+  min-height: 50px;
+  min-width: 50px;
+  user-select: none;
+  text-align: center;
+  transition: background 0.3s ease-in-out;;
+}
+
+.table td:hover {
+  background: rgba(233, 30, 99, 0.2);
+}
+
+.addRow {
+  transition: color 0.3s;
+  color: #3949ab;
+}
+
+.addRow:hover {
+  color: #283593;
+}

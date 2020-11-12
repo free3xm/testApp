@@ -1,0 +1,17 @@
+body {
+  font-family: Roboto, sans-serif;
+  background: #f1f1f1;
+}
+
+* {
+  margin: 0;
+}
+
+button {
+  font-family: inherit;
+  box-sizing: border-box;
+  border: 0;
+  cursor: pointer;
+  outline: 0;
+  background: transparent;
+}
